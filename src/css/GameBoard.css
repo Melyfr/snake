@@ -1,0 +1,56 @@
+.gameboard {
+  display: flex;
+  justify-content: center;
+}
+
+.gameboard:focus {
+  outline: none;
+}
+
+.gameboard__row {
+  display: flex;
+}
+
+.gameboard__container {
+  background-color: #363b4b;
+  border: 1px solid rgb(175, 175, 175);
+  position: relative;
+}
+
+.gameboard__controller {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.gameboard__left-right {
+  display: flex;
+  gap: 82px;
+}
+
+.gameboard__btn {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  background-image: url(../img/arrow-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+}
+
+.gameboard__btn--up {
+  transform: rotate(180deg);
+}
+
+.gameboard__btn--left {
+  transform: rotate(90deg);
+}
+
+.gameboard__btn--right {
+  transform: rotate(-90deg);
+}

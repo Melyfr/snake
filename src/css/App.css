@@ -1,0 +1,23 @@
+.link {
+  color: #000;
+  text-align: center;
+  background-color: #fff;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  border: 1px solid #000;
+
+  display: block;
+  padding: 16px 40px;
+  margin-top: 50px;
+}
+
+.link:hover {
+  background-color: #22252F;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.link:active {
+  transform: scale(0.88);
+}

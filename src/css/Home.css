@@ -1,0 +1,10 @@
+.home__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.home__banner {
+  width: 300px;
+}

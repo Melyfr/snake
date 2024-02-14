@@ -1,0 +1,21 @@
+.game {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game__score {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.game__score__number {
+  color: rgb(102, 113, 211);
+}
+
+.game__link {
+  margin-top: 25px;
+}
