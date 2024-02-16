@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className='home__container'>
       <img className='home__banner' src={snake_banner} alt="Snake" />
-      <Link to='/snake' className='link'>Play</Link>
+      <Link to='/game' className='link'>Play</Link>
     </div>
   )
 }

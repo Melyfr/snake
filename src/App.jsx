@@ -8,9 +8,9 @@ export default function App() {
 
   return (
     <div className="App">
-      <Routes basename='/snake'>
+      <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/snake' element={<Snake />} />
+        <Route path='/game' element={<Snake />} />
         <Route path='*' element={<Home />} />
       </Routes>
     </div>
