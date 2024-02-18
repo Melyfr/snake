@@ -1,4 +1,4 @@
-### Snake
+### Snake Game
 
 ![Snake](https://github.com/Melyfr/snake/assets/72978278/1c98a31c-452b-4f03-850b-63e9fd2426f9)
 <div>
@@ -11,7 +11,7 @@
 
 ### О проекте:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Веб-версия игры в змейку в минималистичном стиле, цель которой - собрать максимальное количество очков в условиях постоянного увеличения длины змейки и ускорения ее скорости. Управление осуществляется клавишами "w", "a", "s", "d". Интерфейс игры адаптирован для различных размеров экрана.
 #
 
 ### Быстрый запуск:
